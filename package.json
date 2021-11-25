@@ -1,0 +1,30 @@
+{
+  "name": "vnnative3-redirect",
+  "version": "1.0.0",
+  "description": "Vn Native Framework",
+  "main": "index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steveleetn91/vnnative3-redirect.git"
+  },
+  "keywords": [
+    "Vn",
+    "Native",
+    "Framework"
+  ],
+  "author": "Steve Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steveleetn91/vnnative3-redirect/issues"
+  },
+  "homepage": "https://github.com/steveleetn91/vnnative3-redirect#readme",
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
+}
